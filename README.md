@@ -1,1 +1,0 @@
-# White-Plains-Gospel-Chapel
