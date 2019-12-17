@@ -1,118 +1,132 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <nav class="navbar sticky-top navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="" width="30" height="30" alt=""></a>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Welcome">White Plains Gospel Chapel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" type="text/css" href="AboutUs.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <nav class="navbar sticky-top navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="/Users/noblemathew/Documents/OneDrive/Church/Website/White-Plains-Gospel-Chapel/Media/GC.PNG" width="50" height="50" alt=""></a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+        <a class="nav-link disabled" href="#">Home</a>
+      </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Welcome">Outfit Generator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    
-<meta charset="utf-8">
-  <title>Home Page</title>
-  <link rel="stylesheet" type="text/css" href="index.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </nav>
+
+  <meta charset="utf-8">
+  <title>Home Page</title>
 </head>
 
-<body class="body" style="background-color: gainsboro; text-align: center;">
-  <div id="jumbo" class="jumbotron jumbotron-fluid" style="text-align: center; background-image: url(https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjAjpfGpLvmAhWLHc0KHbD6BKMQjRx6BAgBEAQ&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fchurch-building&psig=AOvVaw1coC_AE51cZIPpIoND8ffC&ust=1576624085672490);">
-    <div class="container" style="text-align: center;">
-      <h1 id="intro" class="display-4" style="color: white;">White Plains Gospel Chapel</h1>
-      <p class="lead"></p>
+<body class="body" style="background-color: gainsboro; text-align: center;">
+  <div id="jumbo" class="jumbotron jumbotron-fluid" style="text-align: center;
+  background-image: url(/Users/noblemathew/Documents/OneDrive/Church/Website/White-Plains-Gospel-Chapel/Media/WPskyline.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;">
+    <div class="container" style="text-align: center;">
+      <h1 id="intro" class="display-4" style="color: white;">White Plains Gospel Chapel</h1>
+      <p class="lead">436 N Broadway, White Plains, NY</p>
     </div>
   </div>
-  
+  ​
   <hr>
-
-  <div class="AboutUs">
+  ​
+  <div class="AboutUs">
     <h2>Welcome</h2>
-    <br>
-    <div id="aboutpara" class="container">
-      <ul>
+  
+    <div id="aboutpara" class="container">
         <li>
-          <p>Welcome, and thank you for visiting White Plains Gospel Chapel online. We hope that you'll find helpful information regarding our life as a body of believers whose worship, prayer, fellowship and ministry is centered around the Lord Jesus Christ and His Gospel.</p>
+          <p>Welcome, and thank you for visiting White Plains Gospel Chapel online. We hope that you'll find helpful information regarding our life as a body of believers whose worship, prayer, fellowship and ministry is centered around the Lord Jesus Christ and His Gospel.</p>
         </li>
-      </ul>
-    </div>
-    <div class="card-group">
-      <div class="card">
-        <img src="/Users/noblemathew/Documents/OneDrive/Church/Website/Site/church.png" class="card-img-top" alt="..." style="align-items:center; height: 200px; width: 200px;">
-        <div class="card-body">
-          <h5 class="card-title">About Us</h5>
-          <p class="card-text"></p>
-          <p class="card-text"><small class="text-muted"></small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="/Users/noblemathew/Documents/OneDrive/Church/Website/Site/gathering.png" class="card-img-top" alt="..." style="height: 200px; width: 250px;">
-        <div class="card-body">
-          <h5 class="card-title">Gathering</h5>
-          <p class="card-text"></p>
-          <p class="card-text"><small class="text-muted"></small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="/Users/noblemathew/Documents/OneDrive/Church/Website/Site/Events.png" class="card-img-top" alt="..." style="height: 150px; width: 200px;">
-        <div class="card-body">
-          <h5 class="card-title">Events</h5>
-          <p class="card-text"></p>
-          <p class="card-text"><small class="text-muted"></small></p>
-        </div>
-      </div>
     </div>
   </div>
-  
+  ​
   <hr>
   
-  <div class="Meetings">
-    <h2>Meetings</h2>
-    <br>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <h6>Sunday</h6>
-          <img class="" style="height: 500px" src="" alt="">
+  <div class = "container">
+    <div class="row">
+        <div class="col s12 16">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/sample-1.jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
         </div>
-        <div class="col-sm">
-          <h6>Bible Study</h6>
-          <img class="Casual" style="height: 500px" src="" alt="">
+          <div class="col s12 16">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 16">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/sample-1.jpg">
+                  <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
         </div>
-      </div>
-      
-      <br>
-      <div class="row">
-        <div class="col-sm">
-          <h6>Saturday</h6>
-          <img class="Street" style="height: 500px" src="" alt="">
-        </div>
-        <div class="col-sm">
-          <h6>Events</h6>
-          <img class="Party" style="height: 500px" src="" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
+  </div>  
   
+  <div class="Outfits">
+    <h2>Outfits</h2>
+    <br>
+   
+  ​
+  <hr>
+  ​
 
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
+​
 
 </html>
-
